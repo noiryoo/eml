@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "eml",
+  "version": "${version}",
+  "name": "EML: Enchantments Max Level and Descriptions",
+  "description": "Shows enchantment levels as current/max, highlights max level with a star, displays compact 16x16 item applicability icons, and reveals descriptions on Shift.",
+  "authors": ["noiryoo"],
+  "contact": {
+    "sources": "https://github.com/noiryoo/eml",
+    "issues": "https://github.com/noiryoo/eml/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "icon": "assets/eml/icon.png",
+  "mixins": ["eml.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.2 <=26.3",
+    "java": ">=25"
+  },
+  "suggests": {
+    "fabric-api": "*"
+  }
+}

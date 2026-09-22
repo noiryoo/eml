@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "io.github.noiryoo.eml.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["EnchantmentMixin", "ItemEnchantmentsMixin", "ClientTooltipComponentMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
